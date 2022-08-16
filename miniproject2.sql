@@ -1,5 +1,3 @@
-Project 2: 
-
 CREATE TABLE purchases (
 product_id INT PRIMARY KEY,
 title VARCHAR(255),
