@@ -29,9 +29,9 @@ video_id INT REFERENCES Video(video_id)
 --These should be imaginary reviews that include columns for the user’s name (“Asher”, “John”, etc.), the rating (which could be NULL, or a number between 0 and 5), and a short text review (“Loved it!”). There should be a column that links back to the ID column in the table of videos.
 
 INSERT INTO reviewers(name, rating, text_review)
-VALUES ('Damiano LSQLSQsssarovere', '5', 'I like it!'),
- ('Jaden Dodoo-Tawiah', '5', 'I like it!'), 
-('Harry Potter', '4', 'Really good Performance!');
+VALUES ('Damiano', '5', 'I like it!'),
+ ('Jaden Dodoo-Tawiah', '5', 'I like technology!'), 
+('Harry Potter', '4', 'Very beneficial!');
 
 Select * FROM video as v
 JOIN reviewers as r
